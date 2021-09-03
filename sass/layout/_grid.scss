@@ -12,6 +12,10 @@
         width: 50rem;
         padding: 0 3rem;
     }
+    @include respond (small-phone){
+        width: auto;
+        padding: 0 2rem;
+    }
     @include clear-fix;
     [class^="col-"]{
         float: left;

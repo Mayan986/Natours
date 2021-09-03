@@ -690,6 +690,12 @@ body {
     transform: skewX(0);
   }
 }
+@media only screen and (max-width: 25em) {
+  .story {
+    padding-left: 5rem;
+    padding-right: 2rem;
+  }
+}
 .story__shape {
   width: 15rem;
   height: 15rem;
@@ -879,6 +885,12 @@ body {
   .row {
     width: 50rem;
     padding: 0 3rem;
+  }
+}
+@media only screen and (max-width: 25em) {
+  .row {
+    width: auto;
+    padding: 0 2rem;
   }
 }
 .row::after {

@@ -17,6 +17,10 @@
     @include respond(phone){
         transform: skewX(0);
     } 
+    @include respond (small-phone){
+        padding-left: 5rem;
+        padding-right: 2rem;
+    }
     
     &__shape{
         width: 15rem;
